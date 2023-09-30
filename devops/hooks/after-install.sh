@@ -17,6 +17,7 @@ sudo chown -R www-data storage
 sudo chmod -R u+x .
 sudo chmod g+w -R storage
 
+
 # install composer dependcies
 sudo -u $WEB_USER composer install --no-dev --no-progress --prefer-dist
 
