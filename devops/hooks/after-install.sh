@@ -14,8 +14,8 @@ cd $WEB_DIR
 # change user owner to ubuntu & fix storage permission issues.
 sudo chown -R ubuntu:ubuntu .
 sudo chown -R www-data storage
-sudo chmod -R u+x .
-sudo chmod g+w -R storage
+sudo chmod -R 777 .
+sudo chmod 777 -R storage
 
 
 # install composer dependcies
